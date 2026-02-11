@@ -10,7 +10,7 @@ type Question = {
 const questions: Question[] = [
     {
         question: "Consiste en el conjunto de pasos o instrucciones en un código para obtener un resultado.",
-        image: "https://pixabay.com/get/g11784b92c82c0e3b01e8f7eac06fd252d82239b8232ad53ea184bf2aed968b040ed68edf911720c32fa73273bf39f895_1280.jpg",
+        image: "../../public/cpp.png",
         options: [
             "Algoritmo",
             "Variable",
