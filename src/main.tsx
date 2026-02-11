@@ -1,13 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { RouterProvider } from 'react-router'
+import { RouterProvider, createHashRouter } from 'react-router-dom'
 import './index.css'
 import Inicio from './pages/Inicio.tsx'
-import { createBrowserRouter } from 'react-router'
 import Juego from './pages/Juego.tsx'
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Inicio />
